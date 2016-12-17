@@ -10,7 +10,7 @@ $$
 -This is used to find the angle between two vectors or to test if they are perpendicular
 
 -The dot product is a scalar
-##The Vector Equation of a Line
+##Equations of Lines (2D)
 ####Vector Equation:
 $$
 \vec{r}=\vec{b}+t\vec{b}
@@ -86,4 +86,57 @@ $$
 $$
 \vec{u} \times \vec{v} = |\vec{u}||\vec{v}|\sin\theta \vec{n}
 $$
--$\vec{n}$ is a unit vector that is perpendicular to $\vec{u}$ and $\vec{v}$
+-$\vec{n}$ is a unit vector that is perpendicular to $\vec{u}$ and $\vec{v}$, which means that the cross product of two vectors yields a vector. To find the magnitude of the cross product vector, use the following equation:
+$$
+|\vec{u}\times \vec{v}|=|\vec{u}||\vec{v}|\sin{\theta}
+$$
+
+-The area of a triangle formed by vectors $\vec{a}$ and $\vec{b}$ can be solved as follows:
+
+$$
+\text{area}=\frac{1}{2}|\vec{a}||\vec{b}|\sin \theta
+$$
+
+##Equations of Lines (3D)
+####Vector Equation:
+$$
+\vec{r}=\vec{a}+t\vec{b}
+$$
+-Note that this is different from the vector equation of a 2D line because the vectors here are 3D
+-Rewriting the Vector Equation in each individual dimension gives the parametric equations
+####Parametric Equations:
+$$
+x=x_0+at \\
+y=y_0+bt\\
+z=z_0+ct\\
+$$
+-Solving for $t$ and setting each equation equal to each other gives:
+####Cartesian Form
+$$
+t=\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}
+$$
+##Planes in Space (3D)
+A plane can be determined from:
+- three non-colinear points
+- two instersecting lines
+- a line and a point not on the line
+####Normal Form
+$$
+\vec{n} \cdot \vec{r} =\vec{n}\cdot \vec{r_0}
+$$
+Where $\vec{n}$ is orthoganal to the plane and $\vec{r}$ and $\vec{r_0}$ are position vectors of a point in the plane
+
+####Scalar Equation
+$$
+a(x-x_0)+b(y-y_0)+c(z-z_0)=0
+$$
+-rewriting the standard form of a plane yields the general form:
+####General Form:
+$$
+ax+by+cz+d=0
+$$
+####Standard Form:
+$$
+ax+by+cz=d
+$$
+-Both the standard form and general form are both types of the cartesian form
