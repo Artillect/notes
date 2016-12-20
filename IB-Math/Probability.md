@@ -21,10 +21,21 @@ $$
 $P(A|B)$ is the notation for the probability of event A given event B being true or having occurred.
 ####Bayes' Theorem
 $$
-
+P(A|B)=\frac{P(B|A)P(A)}{P(B)}
 $$
 ####Binomial Theorem
 $$
 P(r \text{ successes in }n \text{ trials})={{n}\choose{r}}\cdot p^r \cdot q^{(n-r)}
 $$
 The expected value of a binomial distribution $=np$
+
+The standard deviation of a binomial distribution $=np(1-p)$
+
+####Poisson distribution
+$$
+P(X=x)=\frac{\lambda ^xe^{-\lambda}}{x!}
+$$
+####Normal Distribution Translation
+$$
+z=\frac{x-\mu}{\sigma}
+$$
